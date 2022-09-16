@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+}
+body {
+    background: url(images/smash-bros.jpg) no-repeat;
+    background-position: center;
+}
+header{
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    text-align: center;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 5em;
+    background-color: rgba(128, 128, 128, 0.775);
+    display: inline-block;
+    letter-spacing: 4px;
+    position: relative;
+    top: 270px;
+}
+.card {
+    margin-top: 700px;
+    backdrop-filter: blur(13px) saturate(171%);
+    -webkit-backdrop-filter: blur(13px) saturate(171%);
+    background-color: rgba(17, 25, 40, 0.64);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display: block;
+    border: 1px solid red;
+}
+section div{
+    width: 150px;
+    height: 200px;
+    background: black;
+    border-radius: 20px;
+    display: flex;
+    padding: 4px;
+    transition: transform .3s;
+    display: inline-block;
+    margin: 20px;
+}
+section div:hover {
+    transform: scale(1.1);
+}
