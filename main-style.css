@@ -2,48 +2,96 @@
 
 *{
     margin: 0;
+    padding: 0;
 }
-body {
-    background: url(images/smash-bros.jpg) no-repeat;
-    background-position: center;
-}
-header{
-    background-attachment: fixed;
-    margin-bottom: 50px;
-    text-align: center;
-}
+#paralx1{
+   background: url(images/smash-bros-oficial.jpeg);
+   min-height: 1000px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+} 
 h1{
     font-family: 'Quicksand', sans-serif;
     font-family: 'Shadows Into Light', cursive;
     color: white;
-    font-size: 5em;
+    font-size: 7em;
     background-color: rgba(128, 128, 128, 0.775);
     display: inline-block;
     letter-spacing: 4px;
     position: relative;
-    top: 270px;
+    top: 300px;
 }
-.card {
-    margin-top: 700px;
+#card1 {
     backdrop-filter: blur(13px) saturate(171%);
     -webkit-backdrop-filter: blur(13px) saturate(171%);
     background-color: rgba(17, 25, 40, 0.64);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
     display: block;
-    border: 1px solid red;
 }
-section div{
+#secone{
+    position: absolute;
+    top: 1000px;
+}
+article div{
     width: 150px;
     height: 200px;
     background: black;
     border-radius: 20px;
-    display: flex;
     padding: 4px;
-    transition: transform .3s;
+    transition: transform .5s;
     display: inline-block;
     margin: 20px;
 }
-section div:hover {
+article div:hover {
     transform: scale(1.1);
+    
+}
+.next{
+    color: white;
+    display: inline-block;
+    font-size: 3em;
+    margin-right: 15px;
+    position: relative;
+    top: 90px;
+}
+#paralx2{
+    background: url(images/animes-oficial.png);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+ } 
+#card2{
+    backdrop-filter: blur(13px) saturate(171%);
+    -webkit-backdrop-filter: blur(13px) saturate(171%);
+    background-color: rgba(17, 25, 40, 0.64);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display: block;
+}
+#lol{
+    background: url(images/lol.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#minecraft{
+    background: url(images/minecraft.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#zelda{
+    background: url(images/zelda.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#gta{
+    background: url(images/gta.png) no-repeat;
+    background-size: contain;
+    background-position: center;
 }
