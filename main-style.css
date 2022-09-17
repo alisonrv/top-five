@@ -4,9 +4,44 @@
     margin: 0;
     padding: 0;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+h1{
+    border: 2px solid red;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+h1{
+    border: 2px solid yellow;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+h1{
+    border: 2px solid green
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+h1{
+    border: 2px solid blue;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+h1{
+    border: 2px solid orange;
+}
+}
+
 #paralx1{
    background: url(images/smash-bros-oficial.jpeg);
-   min-height: 1000px;
+   min-height: 650px;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
@@ -22,7 +57,7 @@ h1{
     display: inline-block;
     letter-spacing: 4px;
     position: relative;
-    top: 300px;
+    top: 200px;
 }
 #card1 {
     backdrop-filter: blur(13px) saturate(171%);
@@ -34,7 +69,8 @@ h1{
 }
 #secone{
     position: absolute;
-    top: 1000px;
+    top: 650px;
+
 }
 article div{
     width: 150px;
@@ -58,6 +94,17 @@ article div:hover {
     position: relative;
     top: 90px;
 }
+#segundoH1{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 7em;
+    background-color: rgba(128, 128, 128, 0.775);
+    display: inline-block;
+    letter-spacing: 4px;
+    position: relative;
+    top: 700px;
+}
 #paralx2{
     background: url(images/animes-oficial.png);
     min-height: 1000px;
@@ -79,6 +126,7 @@ article div:hover {
     background: url(images/lol.jpg) no-repeat;
     background-size: contain;
     background-position: center;
+    margin-left: 90px;
 }
 #minecraft{
     background: url(images/minecraft.jpg) no-repeat;
@@ -92,6 +140,47 @@ article div:hover {
 }
 #gta{
     background: url(images/gta.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#fallguys{
+    background: url(images/fallguys.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#acorigin{
+    background: url(images/ac-origin.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#nier{
+    background: url(images/nier.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 90px;
+}
+#overcook{
+    background: url(images/overcooked.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#littlen{
+    background: url(images/little-nigthmares.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#limbo{
+    background: url(images/limbo.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#lifestrange{
+    background: url(images/life-strange.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#csgo{
+    background: url(images/csgo.jpg) no-repeat;
     background-size: contain;
     background-position: center;
 }
